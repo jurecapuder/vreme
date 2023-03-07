@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name"> Vreme </string>
+
+    <string name="stanje"> Stanje </string>
+
+    <string name="danasnja_napoved"> Današnja vremenska napoved </string>
+
+    <string name="ime_mesta"> Ime mesta </string>
+
+    <string name="vnesite_ime_mesta"> Vnesite ime mesta </string>
+
+    <string name="_23"> 23 </string>
+
+    <string name="cas"> Čas </string>
+
+    <string name="_20"> 20 </string>
+
+    <string name="_14"> 14 mm </string>
+
+    <string name="todo"> TODO </string>
+    <string name="dan">dan</string>
+
+</resources>

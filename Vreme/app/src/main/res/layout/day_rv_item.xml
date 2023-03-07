@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="10dp"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_back" >
+
+        <TextView
+            android:id="@+id/idRVTVDay"
+            android:layout_width="140dp"
+            android:layout_height="35sp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/dan"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/rain"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@id/idRVTVDay"
+            android:layout_toRightOf="@id/idRVTVDay"
+            android:src="@drawable/raindrop" />
+
+        <TextView
+            android:id="@+id/idRVTVRain"
+            android:layout_width="60sp"
+            android:layout_height="35sp"
+            android:layout_toRightOf="@id/rain"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="20 mm"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/idRVIVCondition"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/idRVTVRain"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:id="@+id/idRVTVTemperature"
+            android:layout_width="70dp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/idRVIVCondition"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="10 °C"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
