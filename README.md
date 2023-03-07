@@ -5,6 +5,8 @@ Ta aplikacija je namenjena zagotavljanju najbolj natančnih informacij o vremenu
 
 Funkcije:
 
-Trenutne vremenske razmere: temperatura, čas sončnega vzhoda in zahoda, možnost padavin
+Trenutne vremenske razmere: temperatura, čas sončnega vzhoda in zahoda, možnost padavin \n
+
 Urna napoved: podrobna napoved za naslednjih 24 ur, vključno s temperaturo, možnostjo padavin in vremenskimi pogoji
+
 Dnevna napoved: napoved za naslednjih 3 dni, vključno s povprečno temperaturo, možnostjo padavin in vremenskimi pogoji.
